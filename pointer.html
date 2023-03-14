@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POINTER</title>
+    <link rel="stylesheet" href="css/pointer.css" type="text/css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
+    <div class="cursor"></div>
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).mousemove(function(e){
+            $('.cursor').eq(0).css ({left:e.pageX, top:e.pageY})
+            setTimeout(function(){
+                $('.cursor').eq(1).css ({left:e.pageX, top:e.pageY}) 
+            },200)
+            setTimeout(function(){
+                $('.cursor').eq(2).css ({left:e.pageX, top:e.pageY}) 
+            },300)
+            setTimeout(function(){
+                $('.cursor').eq(3).css ({left:e.pageX, top:e.pageY}) 
+            },400)
+            setTimeout(function(){
+                $('.cursor').eq(4).css ({left:e.pageX, top:e.pageY}) 
+            },500)
+            setTimeout(function(){
+                $('.cursor').eq(5).css ({left:e.pageX, top:e.pageY}) 
+            },600)
+            setTimeout(function(){
+                $('.cursor').eq(6).css ({left:e.pageX, top:e.pageY}) 
+            },700)
+            setTimeout(function(){
+                $('.cursor').eq(7).css ({left:e.pageX, top:e.pageY}) 
+            },800)
+            setTimeout(function(){
+                $('.cursor').eq(8).css ({left:e.pageX, top:e.pageY}) 
+            },900)
+            setTimeout(function(){
+                $('.cursor').eq(9).css ({left:e.pageX, top:e.pageY}) 
+            },1000)
+            setTimeout(function(){
+                $('.cursor').eq(10).css ({left:e.pageX, top:e.pageY}) 
+            },1100)
+
+        })
+    </script>
+</body>
+</html>

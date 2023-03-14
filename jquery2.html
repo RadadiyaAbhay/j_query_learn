@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 1140px;
+            background-color: aqua;
+        }
+        .d-flex{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .d-block{
+            display: block;
+        }
+        .d-none{
+            display: none;
+        }
+        ul {
+            list-style: none;
+        }
+        ul li{
+            padding: 10px;
+        }
+        .justify-con-between{
+            justify-content: space-between;
+        }
+        .btn{
+            width: 40px;
+            height: 30px;
+            
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, est rerum nihil voluptatibus eaque maiores corrupti minima officia, tempora recusandae quo a repellendus aut. Quasi molestias earum, itaque iure aspernatur modi animi optio mollitia. Illum officiis illo architecto id, magnam adipisci accusantium similique tenetur repudiandae labore perspiciatis repellendus unde exercitationem velit molestias consequatur. Explicabo exercitationem nisi quisquam culpa, dignissimos consequuntur praesentium earum. Et quia sapiente similique doloribus distinctio? Ducimus ullam quam sed. Repellendus nisi, saepe porro, sed magni animi nihil illum deleniti ut quo sunt quis ex pariatur commodi. Dolores soluta corrupti culpa necessitatibus hic obcaecati provident ipsam, dolore cupiditate numquam ab quasi deserunt, atque enim esse non itaque laboriosam animi reiciendis, modi neque fugit facilis ipsum? Asperiores voluptate dolore ducimus? Tempora tempore dignissimos, officiis vel illo, in similique eaque dicta suscipit veritatis eum harum error eveniet exercitationem aut ex iste iusto fugiat possimus dolor quo sunt sapiente. Minus commodi facilis alias voluptates, optio error aperiam ipsum dicta quia laborum ab rem, dolore doloremque. Ex veniam tempora neque sunt, architecto corporis laborum maiores suscipit, atque quibusdam assumenda esse magnam expedita voluptatibus repellendus! Distinctio ea beatae deleniti. Dolor repudiandae repellendus dignissimos, unde consequuntur similique, laudantium sed cum eveniet corrupti impedit accusamus beatae inventore. Ullam, sint, omnis distinctio enim accusantium ea ex eveniet, iusto mollitia expedita magnam. Placeat tenetur accusamus reiciendis porro accusantium ipsum eius, magnam iusto provident excepturi veritatis earum adipisci repellat architecto impedit officia perferendis ex consequatur nemo atque molestias error, vero quam. Optio voluptatum perspiciatis eligendi? Vel perferendis rerum doloribus doloremque! Quae deleniti eveniet neque error nulla quis dignissimos perspiciatis eaque in, tempore aliquam? Hic reiciendis voluptatem laudantium perspiciatis, rem non totam possimus recusandae illum dolor iure perferendis soluta inventore libero quasi facilis necessitatibus. Praesentium atque facere placeat soluta! Ratione et amet neque aut quis debitis nisi unde omnis nobis rerum exercitationem ea inventore necessitatibus eligendi vitae blanditiis a consequuntur, nostrum dolorum perferendis fugit autem? Nam blanditiis a tenetur neque labore ut beatae unde quibusdam. Et provident ex corrupti? Soluta expedita quod, tenetur quos tempore voluptatibus obcaecati molestias fugit aspernatur ullam debitis ratione pariatur optio id error inventore ipsam quis, placeat veniam facere, dolores hic eum. Necessitatibus deleniti fugit voluptatem sunt, itaque nisi sequi nam hic veniam id quo natus neque molestias amet. Non quasi reiciendis ab nobis numquam, ratione cumque magni ducimus quisquam, ipsam consequuntur eius accusantium, velit amet repudiandae dolor vitae laudantium voluptates error? Voluptatem, itaque. Fugit, provident maxime libero dignissimos consequuntur eligendi sunt illum rem doloremque fuga quae voluptatum explicabo odit accusantium? Itaque, ducimus voluptas neque distinctio adipisci, commodi vero maiores provident dolor sint blanditiis amet reprehenderit alias modi error soluta est tempora quaerat libero quidem. Minima consequuntur neque eum, in adipisci nemo nihil optio maiores dolor voluptas ex pariatur deserunt sit odio, dolorum qui cupiditate possimus architecto laboriosam. Dignissimos necessitatibus at recusandae odio quidem repudiandae voluptatibus facere sunt. Eius, ea esse saepe facere at atque sunt quidem quaerat, dolorum incidunt deserunt! Rerum quia, voluptatem soluta voluptate deserunt suscipit earum sapiente necessitatibus rem natus, eligendi libero.
+    </p>
+    <div class="box d-flex justify-con-between">
+        <ul class="d-flex">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+        <button type="button" class="btn">
+            +
+        </button>
+    </div>
+    <br/>
+    <input type="text" placeholder="Name"/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".btn").click(function(){
+                // $("ul").addClass("d-block");
+                // $("ul").removeClass("d-flex");
+                $("ul").toggleClass("d-block");
+                $("ul").toggleClass("d-flex");
+                $(this).html("-");
+            })
+            // $("p").mouseup(function(){
+            //     $(this).css("color","red");
+            // })
+            // $("p").mousedown(function(){
+            //     $(this).css("color","green");
+            // })
+            // $("p").mouseenter(function(){
+            //     $(this).css("background-color","black");
+            // })
+            // $("p").mouseout(function(){
+            //     $(this).css("background-color","red");
+            // })
+            $("p").mouseover(function(){
+                $(this).css("background-color","red");
+            })
+            $("input").focus(function(){
+                $(this).css("background-color","red");
+            })
+            $("input").keypress(function(){
+                $(this).css("color","green");
+            })
+            $("input").keydown(function(){
+                $(this).css("font-size","30px");
+            })
+            $("input").keyup(function(){
+                $(this).css("font-size","20px");
+            })
+            $("input").dblclick(function(){
+                $(this).css("font-size","50px");
+            })
+
+
+        })
+    </script>
+</body>
+</html>
